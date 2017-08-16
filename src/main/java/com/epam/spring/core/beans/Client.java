@@ -1,16 +1,16 @@
-package com.epam.spring.core;
+package com.epam.spring.core.beans;
 
-class Client {
+public class Client {
 
     private String id;
     private String fullName;
 
-    Client(String id, String fullName) {
+    public Client(String id, String fullName) {
         this.id = id;
         this.fullName = fullName;
     }
 
-    String getId() {
+    public String getId() {
         return id;
     }
 
@@ -18,7 +18,7 @@ class Client {
         this.id = id;
     }
 
-    String getFullName() {
+    public String getFullName() {
         return fullName;
     }
 
