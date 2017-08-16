@@ -14,7 +14,7 @@
 # CMake
 cmake-build-debug/
 
-## File-based project format:
+## File-based project formatter:
 *.iws
 
 ## Plugin-specific files:
