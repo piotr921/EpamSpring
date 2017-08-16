@@ -12,6 +12,7 @@
         <maven.version>3.5.0</maven.version>
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <spring.version>4.3.10.RELEASE</spring.version>
+        <commons.io.version>2.5</commons.io.version>
     </properties>
 
     <build>
@@ -48,6 +49,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons.io.version}</version>
         </dependency>
     </dependencies>
 </project>

@@ -1,12 +1,9 @@
 package com.epam.spring.core.beans;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import java.text.DateFormat;
 import java.util.Date;
 
 public class Event {
-    @Autowired
     private int id;
     private String msg;
     private Date date;
